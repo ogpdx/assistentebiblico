@@ -41,3 +41,12 @@ Thumbs.db
 .pytest_cache/
 htmlcov/
 .coverage
+
+# Modelos de IA baixados localmente
+models/*
+!models/.gitkeep
+
+# Arquivos de distribuição
+dist/
+build/
+*.spec
