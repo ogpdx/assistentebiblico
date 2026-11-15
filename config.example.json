@@ -1,0 +1,21 @@
+{
+  "holyrics": {
+    "host": "localhost",
+    "port": 8091,
+    "token": "SEU_TOKEN_AQUI",
+    "timeout": 10.0
+  },
+  "voice": {
+    "model": "small",
+    "language": "pt",
+    "device_index": null,
+    "sample_rate": 16000,
+    "vad_threshold": 0.5
+  },
+  "app": {
+    "send_mode": "manual",
+    "default_bible_version": "",
+    "log_level": "INFO",
+    "history_max_items": 100
+  }
+}

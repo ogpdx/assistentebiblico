@@ -1,0 +1,43 @@
+# .gitignore - Assistente Bíblico
+
+# Configuração do usuário (contém token sensível)
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/*.log
+
+# Modelos Whisper (muito grandes para versionamento)
+models/*.bin
+models/*.ct2/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# PyInstaller
+*.spec
+
+# Testes
+.pytest_cache/
+htmlcov/
+.coverage

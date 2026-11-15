@@ -1,0 +1,1 @@
+# Assistente Bíblico - Módulo principal
